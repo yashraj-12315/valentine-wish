@@ -31,6 +31,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Option 1: Deploy with GitHub (recommended)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push this project to a GitHub repository.
+2. Go to [vercel.com/new](https://vercel.com/new).
+3. Click **Import** and select your `valentine-wish` repo.
+4. Leave the default settings (Framework: Next.js) and click **Deploy**.
+5. Your app will get a URL like `https://valentine-wish-xxx.vercel.app`.
+
+### Option 2: Deploy with Vercel CLI
+
+1. Install the CLI and log in (one-time):
+   ```bash
+   npm i -g vercel
+   vercel login
+   ```
+2. From the project folder, deploy:
+   ```bash
+   cd valentine-wish
+   vercel
+   ```
+3. Follow the prompts. Run `vercel --prod` when you want to deploy to production.
+
+---
+
+[Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying)

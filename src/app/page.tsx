@@ -97,7 +97,7 @@ export default function Home() {
             className="text-4xl md:text-6xl font-semibold text-white mb-2"
             style={{ fontFamily: '"Dancing Script", cursive' }}
           >
-            Sweety,
+            Sayantani,
           </h1>
           <p
             className="text-2xl md:text-3xl text-rose-200 mb-12"
@@ -130,7 +130,7 @@ export default function Home() {
           </div>
 
           <p className="mt-8 text-rose-400/70 text-sm">
-            (There’s only one right answer, Sweety 😊)
+            (There’s only one right answer, Sayantani 😊)
           </p>
         </div>
       ) : (
@@ -154,7 +154,7 @@ export default function Home() {
             className="text-2xl md:text-3xl text-rose-300 mb-8"
             style={{ fontFamily: '"Dancing Script", cursive' }}
           >
-            I love you, Sweety 💕
+            I love you, Sayantani 💕
           </p>
           <p
             className="text-xl text-rose-200/90 max-w-md mx-auto"

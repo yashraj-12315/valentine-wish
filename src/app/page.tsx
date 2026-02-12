@@ -110,7 +110,7 @@ export default function Home() {
             <button
               type="button"
               onClick={() => setSaidYes(true)}
-              className="relative z-10 px-10 py-4 rounded-full bg-gradient-to-r from-rose-500 to-rose-600 text-white text-xl font-medium shadow-lg shadow-rose-900/40 hover:from-rose-400 hover:to-rose-500 hover:scale-105 active:scale-100 transition-all duration-200 pulse-glow"
+              className="relative z-10 px-10 py-4 rounded-full bg-gradient-to-r from-rose-500 to-rose-600 text-white text-xl font-medium shadow-lg shadow-rose-900/40 hover:from-rose-400 hover:to-rose-500 hover:scale-105 active:scale-100 transition-all duration-200 pulse-glow cursor-pointer"
               style={{ fontFamily: '"Dancing Script", cursive' }}
             >
               Yes! 💕
@@ -119,7 +119,7 @@ export default function Home() {
               type="button"
               onMouseMove={moveNoButton}
               onMouseEnter={moveNoButton}
-              className="absolute left-1/2 top-1/2 px-8 py-3 rounded-full bg-white/10 text-rose-200/80 text-lg border border-rose-400/30 transition-[transform] duration-100 ease-out"
+              className="absolute left-1/2 top-1/2 px-8 py-3 rounded-full bg-white/10 text-rose-200/80 text-lg border border-rose-400/30 transition-[transform] duration-100 ease-out cursor-pointer"
               style={{
                 fontFamily: "var(--font-dancing)",
                 transform: `translate(calc(-50% + 90px + ${noPosition.x}px), calc(-50% + ${noPosition.y}px))`,
